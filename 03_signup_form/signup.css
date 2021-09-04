@@ -1,0 +1,171 @@
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #ff75a4 30%, #ffcd8e 80%, #fffefa 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup__form {
+    width: 100%;
+    max-width: 44.2rem;
+    height: auto;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 3.3rem;
+    box-shadow: 0 0 10px #a39f9f;
+}
+
+.form__title {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2.5rem 0 1.5rem;
+}
+
+.signup__already {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 3rem;
+}
+
+.form__input input::-webkit-input-placeholder {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.input__fields .form__input input {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7rem;
+    width: 100%;
+    height: 4.6rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #f8f8f8;
+    transition: box-shadow 0.2s ease-in,
+                background-color 0.2s ease-in;
+}
+
+.input__fields .form__input input:focus {
+    outline: none;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0 0 5px #c4c0c0;
+    background-color: white;
+}
+
+.form__input.form__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__input.form__group input:first-child {
+    border-radius: 1rem 0 0 1rem;
+    width: calc(50% - 3px);
+}
+
+.form__input.form__group input:last-child {
+    width: 50%;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.submit__btn button {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7rem;
+    width: 100%;
+    height: 4.6rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #4896ff;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.submit__btn button:hover {
+    background-color: #1f6dd3;
+}
+
+.submit__btn button ion-icon {
+    position: absolute;
+    font-size: 2rem;
+    right: 1rem;
+}
+
+.toc {
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.toc .toc__text span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.toc .toc__text a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.toc input[type="checkbox"] {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* hide the browser default checkbox */
+/* .toc input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+    display: none;
+} */
+
+
+/* create custom checkbox */
+/* .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+} */
+
+/* .toc input {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    outline: none;
+    background-color: red;
+} */

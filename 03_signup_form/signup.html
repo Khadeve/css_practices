@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <form action="#" method="get" autocomplete="off">
+      <div class="signup__form">
+        <h2 class="form__title">Create account</h2>
+        <div class="signup__already">
+          <span>Already have an account?</span>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="signin"
+            >Sign in</a
+          >
+        </div>
+        <div class="input__fields">
+          <div class="form__input">
+            <input
+              type="text"
+              id="username"
+              class="username"
+              placeholder="Username"
+            />
+          </div>
+          <div class="form__input form__group">
+            <input
+              type="text"
+              id="firstname"
+              class="firstname"
+              placeholder="First name"
+            />
+            <input
+              type="text"
+              id="lastname"
+              class="lastname"
+              placeholder="Last name"
+            />
+          </div>
+          <div class="form__input">
+            <input type="email" id="email" class="email" placeholder="Email" />
+          </div>
+          <div class="submit__btn">
+            <button type="submit">
+              <span>Sign up</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+          <label class="toc">
+            <div class="toc__text">
+              <span> I have read and agree to the </span>
+              <a href="#"> Terms of Service</a>
+            </div>
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+    </form>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
