@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plant__shop {
+    width: 80rem;
+    height: 60rem;
+    background-color: #aedba5;
+}
+
+.plant__container {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    background-color: white;
+    width: 100%;
+    max-width: 68rem;
+    height: auto;
+    margin: 5rem auto;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
+}
+
+.text__lowercase {
+    text-transform: initial;
+}
+
+.plant__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1.5rem 2rem 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.plant__header a {
+    text-decoration: none;
+    color: black;
+}
+
+.plant__header i.fa-chevron-left {
+    margin-right: 0.8rem;
+}
+
+.plant__content {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.plant__content .plant__image {
+    position: relative;
+    /* height: 32.7rem; */
+    height: auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.plant__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+.plant__detail {
+    padding: 4rem 3rem;
+}
+
+.plant__name {
+    padding-bottom: 0.5rem;
+}
+
+.plant__name h2 {
+    font-weight: 500;
+}
+
+.plant__price {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 2rem 0;
+}
+
+.plant__dsc {
+    line-height: 2.2rem;
+    padding-bottom: 3rem;
+}
+
+.plant__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.plant__buttons button {
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 16rem;
+    padding: 1rem 3rem;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+
+.plant__buttons button:hover {
+    background-color: #aedba5;
+    color: white;
+    border: none;
+}
